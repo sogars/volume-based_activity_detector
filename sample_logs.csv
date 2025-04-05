@@ -1,0 +1,6 @@
+username,endpoint,volume_MB,destination_ip,timestamp,geo_location,known_malicious
+jdoe,FIN-LAPTOP-07,1200,193.122.55.21,2025-04-01T21:10:00Z,United States,False
+maluser01,HR-LAPTOP-102,9800,185.123.12.44,2025-04-02T02:48:00Z,China,True
+sysadmin,ENG-WS-88,8000,104.248.26.40,2025-04-01T09:22:00Z,United States,True
+trusteduser123,OPS-PC-05,300,77.88.8.8,2025-04-03T16:03:00Z,Russia,False
+guestacct,INT-PC-71,480,85.214.132.117,2025-04-02T12:55:00Z,Iran,True
