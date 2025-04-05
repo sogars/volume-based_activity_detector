@@ -1,4 +1,4 @@
-# Anomalous activity detection logic — **written by user** github: sogars  
+# Anomalous activity detection logic — **written by** github: sogars  
 # this script identifies suspicious activity based on the alert's volume/size, location, & known malicious indicators  
 # my comments reflect real-world logic, detection edge cases, and my mindset.
 
