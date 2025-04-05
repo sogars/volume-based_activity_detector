@@ -5,7 +5,8 @@
 import csv
 
 # using sample trusted usernames to avoid file dependency in this demo version  
-# in real orgs you’d pull from LDAP or a secure file — this is just to simulate it  
+# in real-world environments you would pull from a secure file. LDAP, or have all users on a CSV, so you do not 
+#have to keep editing the code 
 trusted_users = ["jdoe", "sysadmin", "trusteduser123"]
 
 # define the function to triage any alert  
