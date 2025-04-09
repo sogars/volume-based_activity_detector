@@ -8,8 +8,7 @@ It simulates real-world behaviors like:
 - Logins from unusual geolocations
 - Timing-based anomalies (i.e., suspicious login intervals)
 
-By emphasizing behavioral context + risk-relevant logic, the detection engine is designed to support security engineers, threat hunters, and analysts who want scalable yet tunable detection logic. 
-That can be tuned for a wide scale of use cases.
+By emphasizing behavioral context + risk-relevant logic, the detection engine is designed to support security engineers, threat hunters, and analysts who want scalable yet tunable detection logic that can also be tuned for a wide scale of use cases.
 ---
 
 ## Key Features
@@ -25,7 +24,7 @@ That can be tuned for a wide scale of use cases.
 
 ---
 
-## Why This Is Relevant 
+# Why This Is Relevant 
 
 The use of AI and automation is becoming required in security operations to protect assets, confidential information, etc. 
 
@@ -34,7 +33,7 @@ Many detection systems rely on:
 - Known IOCs
 - Login failure thresholds
 
-But an APT or insider threat can:
+However, an APT or insider threat can:
 - Bypass with valid credentials
 - Use smooth, spaced logins
 - Avoid tripping alerts without volume
@@ -49,7 +48,7 @@ This tool simulates those gaps and lets security professionals tweak logic to re
 ## Visualize the Threat
 
 The heatmap output offers a high-signal, low-noise visualization that can:
-- Brief executives on user behavior spikes
+- Brief stakeholders on user behavior spikes
 - Highlight internal anomalies
 - Justify access review or monitoring
 
@@ -57,7 +56,7 @@ The heatmap output offers a high-signal, low-noise visualization that can:
 
 ---
 
-## How to Use
+#How to Use
 
 1. Add your logs to the `sample_logs/` folder (CSV format)
 2. Update trusted users list in `threat_detector.py`
