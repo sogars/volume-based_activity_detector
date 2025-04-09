@@ -56,7 +56,7 @@ The heatmap output offers a high-signal, low-noise visualization that can:
 
 ---
 
-#How to Use
+# How to Use
 
 1. Add your logs to the `sample_logs/` folder (CSV format)
 2. Update trusted users list in `threat_detector.py`
