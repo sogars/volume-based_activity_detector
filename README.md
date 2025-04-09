@@ -41,7 +41,7 @@ But an APT or insider threat can:
 
 This tool simulates those gaps and lets security professionals tweak logic to reflect their own use cases:
 - Size
-- Known good users (manually vs using .csv or 
+- Known good users -- manually/with one csv for this example but supports CSV lists, LDAP queries, or API calls to identity providers (i.e., Okta, Azure AD)
 - Data sensitivity
 
 ---
@@ -69,6 +69,11 @@ python threat_detector.py
 ```bash
 python visualize_volume_heatmap.py
 ```
+5. Adapt to your own use case 
+
+- Copy/paste directly into your project
+- Swap in your own logs
+- Modify logic. parameters, and `trusted_users`  manually, import CSV lists, LDAP queries, or API calls to identity providers (i.e., Okta, Azure AD)
 
 ---
 
@@ -199,12 +204,35 @@ elif (
 
 ---
 
+```md
+---
+
+## Full Working Script ( Demo)
+full combined detection logic that ran successfully in VS Code?
+Check out `optimized_threat-detector.py` for the fully functional version.
+---
+
+## Demo – Optimized Threat Detector Output
+
+This run reflects logic that combines:
+- Behavior-based detection
+- Statistical interval outliers
+- Privilege-aware tuning
+
+The output shows how different user behaviors are triaged — not just by volume or location, but contextually--i.e domestic AND malicious AND high volume) 
+
+![Optimized Threat Detector Output](optimized_threat-detector_output.png)
+
+
+---
+
 ## files
 - `threat_detector.py`: main detection logic
+- `optimized_threat-detector_output.py`: optimized code  
 - `visualize_volume_heatmap.py`: heatmap generator
 - `sample_logs/`: sample logs
 - `heatmap_output.png`: sample output image
-
+- `optimized_threat-detector_output.png`: optimized code output 
 ---
 
 ## Author
