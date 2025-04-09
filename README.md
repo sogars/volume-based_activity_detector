@@ -1,6 +1,6 @@
 # Threat Detection Tool – Python
 
-### Keep Humans in the Loop
+## Keep Humans in the Loop
 
 This research demonstrates how **human logic remains essential** for identifying advanced, low-noise threats that often evade traditional rule-based or AI-only detection systems. 
 It simulates real-world behaviors like:
@@ -208,11 +208,11 @@ elif (
 ---
 
 ## Full Working Script ( Demo)
-full combined detection logic that ran successfully in VS Code?
-Check out `optimized_threat-detector.py` for the fully functional version.
+for full combined detection logic that ran successfully in VS Code
+Check out `optimized_threat-detector.py` -fully functional version.
 ---
 
-## Demo – Optimized Threat Detector Output
+# Demo – Optimized Threat Detector Output
 
 This run reflects logic that combines:
 - Behavior-based detection
@@ -225,7 +225,7 @@ The output shows how different user behaviors are triaged — not just by volume
 
 ---
 
-## files
+# files
 - `threat_detector.py`: main detection logic
 - `optimized_threat-detector_output.py`: optimized code  
 - `visualize_volume_heatmap.py`: heatmap generator
