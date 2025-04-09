@@ -237,4 +237,8 @@ The output shows how different user behaviors are triaged — not just by volume
 ## Author
 Made by [@sogars](https://github.com/sogars). If you're in security and want to chat — feel free to connect. : ]
 
+---
+<!-- trigger update -->
+
+
 > NOTE: Snippets incorporated are made to elevate code and give credit where it is due--not critique it. 
