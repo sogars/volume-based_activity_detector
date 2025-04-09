@@ -2,11 +2,11 @@
 
 ### Keep Humans in the Loop
 
-This project demonstrates how **human logic remains essential** for identifying advanced, low-noise threats that often evade traditional rule-based or AI-only detection systems. 
+This research demonstrates how **human logic remains essential** for identifying advanced, low-noise threats that often evade traditional rule-based or AI-only detection systems. 
 It simulates real-world behaviors like:
-- Low-volume exfiltration from trusted accounts
+- Low-volume activity from trusted accounts and unusual geolocations
 - Logins from unusual geolocations
-- Timing-based anomalies (e.g., suspicious login intervals)
+- Timing-based anomalies (i.e., suspicious login intervals)
 
 By emphasizing behavioral context + risk-relevant logic, the detection engine is designed to support security engineers, threat hunters, and analysts who want scalable yet tunable detection logic. 
 That can be tuned for a wide scale of use cases.
