@@ -221,7 +221,7 @@ This run reflects logic that combines:
 
 The output shows how different user behaviors are triaged — not just by volume or location, but contextually--i.e domestic AND malicious AND high volume) 
 
-![Optimized Threat Detector Output](./optimized_threat-detector_output.png)
+![Optimized Threat Detector Output](optimized_threat-detector_output.png)
 
 ---
 
