@@ -223,7 +223,6 @@ The output shows how different user behaviors are triaged — not just by volume
 
 ![Optimized Threat Detector Output](optimized_threat-detector_output.png)
 
-
 ---
 
 ## files
